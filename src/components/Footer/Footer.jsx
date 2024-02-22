@@ -10,9 +10,9 @@ const Footer = () => {
 			<div class="footer-logo">
 				<h2>ETE Conference</h2>
 				<p>International Conference ETE dept</p>
-				<a href="#" class="fa fa-facebook"></a>
+				{/* <a href="#" class="fa fa-facebook"></a>
 				<a href="#" class="fa icons fa-twitter"></a>
-				<a href="#" class="fa fa-instagram"></a>
+				<a href="#" class="fa fa-instagram"></a> */}
 			</div>
 			<div class="footer-links">
 				<div class="learning">

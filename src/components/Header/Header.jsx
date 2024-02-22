@@ -13,7 +13,7 @@ const Header = () => {
           <div className='logo'>
             <h1>National Level Conference on Machine Learning and Artificial Intelligence</h1>
             <span>at Assam Engineering College,Guwahati</span>
-            <h2>Department of ETE and CSE</h2>
+            <h2 style={{color:"black"}}>Department of ETE and CSE</h2>
           </div>
 
         </div>
@@ -47,7 +47,7 @@ const Header = () => {
             <div className='button'><Link to="/">Register</Link> </div>
           </div>
           <button className='toggle' onClick={() => setClick(!click)}>
-            {click ? <i className='fa fa-times'>< RxCross1/> </i> : <i className='fa fa-bars'><GiHamburgerMenu/></i>}
+            {click ? <i >< RxCross1/> </i> : <i><GiHamburgerMenu/></i>}
           </button>
         </nav>
       </header>
