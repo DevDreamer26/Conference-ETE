@@ -4,9 +4,9 @@ import './Hero.css';
 const Hero = () => {
   
   const backgroundImages = [
-    'https://images.pexels.com/photos/2182975/pexels-photo-2182975.jpeg?auto=compress&cs=tinysrgb&w=600',
-    'https://images.pexels.com/photos/4226140/pexels-photo-4226140.jpeg?auto=compress&cs=tinysrgb&w=600',
-    'https://images.pexels.com/photos/1708988/pexels-photo-1708988.jpeg?auto=compress&cs=tinysrgb&w=600',
+    'https://images.pexels.com/photos/2182975/pexels-photo-2182975.jpeg',
+    'https://images.pexels.com/photos/4226140/pexels-photo-4226140.jpeg',
+    'https://images.pexels.com/photos/1708988/pexels-photo-1708988.jpeg',
    
   ];
 

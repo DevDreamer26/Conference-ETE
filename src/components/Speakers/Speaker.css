@@ -1,0 +1,49 @@
+/* Speaker.css */
+
+.speaker-container {
+    padding: 20px;
+  }
+  
+  .speaker-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .speaker-card {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .speaker-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .speaker-card h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  
+  .speaker-card p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+ 
+  @media (max-width: 767px) {
+    .speaker-card {
+      width: calc(50% - 40px);
+    }
+  }
+  
+  @media (max-width: 479px) {
+    .speaker-card {
+      width: calc(100% - 40px);
+    }
+  }
+  
